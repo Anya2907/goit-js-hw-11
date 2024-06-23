@@ -19,6 +19,7 @@ formEl.addEventListener('submit', e => {
 
   getImage(value).then(image => {
     loader.style.display = 'none';
+    
         if (!value.trim()) {
           list.innerHTML = '';
           iziToast.error({
