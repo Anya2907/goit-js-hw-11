@@ -1,6 +1,6 @@
 export function getImage(image) {
     const BASE_URL = 'https://pixabay.com';
-    const END_POINT = '/api';
+    const END_POINT = '/api/';
     const params = new URLSearchParams({
         key: '44542609-ff8a36f5b6e289e3f6d4e0ccb',
         q: image,
